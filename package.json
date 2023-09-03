@@ -1,0 +1,15 @@
+{
+  "name": "primeira-pwa-app",
+  "version": "1.0.0",
+  "description": "aula do renato de pwa",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve ."
+  },
+  "author": "isabela mattos",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+}

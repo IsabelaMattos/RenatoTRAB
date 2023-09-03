@@ -1,0 +1,16 @@
+{
+    "name": "Minha primeira Progressiva",
+    "short_name": "Primeira PWA",
+    "icons": [
+        {
+            "src": "images/jogodavelha-icon-100.webp",
+            "sizes": "100x100",
+            "type": "images/webp"
+        }
+    ],
+    "lang": "pt-BR",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "white",
+    "theme_color": "white"
+}

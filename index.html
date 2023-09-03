@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Minha primeira PWA</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="white"/>
+  </head>
+  <body class="fullscreen">
+    <div class="container">
+        <h1 class="title"><center><i>Jogo da velha</i></center></h1><br/><br/>
+        <center><img src="images/jogodavelha.webp" padding="30%" width="20%"/></center>
+    </div>
+    <div class="board" data-board>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+    </div>
+
+    <div class="winning-message" data-winning-message>
+      <p class="winning-message-text" data-winning-message-text>X Venceu!</p>
+      <button class="winning-message-button" data-restart-button>
+        Reiniciar!
+      </button>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
+
+</body>
+</html>
